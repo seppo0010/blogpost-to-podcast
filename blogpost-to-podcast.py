@@ -47,4 +47,4 @@ for (id, pocket_article) in pocket_instance.get(detail_type='simple')[0]['list']
     'asset_data': open(tmpname)
   })
   os.unlink(tmpname)
-  pocket_instance.archive(id)
+  pocket_instance.archive(id).commit()
