@@ -18,12 +18,12 @@ Since the app is serverless, I use google.com as domain for oauth redirect.
 * `POCKET_CONSUMER_KEY`: Get it from https://getpocket.com/developer/apps/
 * `POCKET_ACCESS_TOKEN`: Once `POCKET_CONSUMER_KEY` is set,
 run `blogpost-to-podcast.py` and it will prompt you to authorize the app and
-return the environment
+return the new environment variable
 * `SOUNDCLOUD_CLIENT_ID`: Get it from http://soundcloud.com/you/apps
 * `SOUNDCLOUD_CLIENT_SECRET`: Get it from http://soundcloud.com/you/apps
 * `SOUNDCLOUD_ACCESS_TOKEN`: Once `SOUNDCLOUD_CLIENT_ID` and `SOUNDCLOUD_CLIENT_SECRET`
 are set, run `blogpost-to-podcast.py`, authorize the app, copy the code from
-the querystring and then set the env variable.
+the querystring and then set the environment variable.
 
 ## Python
 
