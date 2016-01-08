@@ -42,7 +42,7 @@ for (id, pocket_article) in pocket_instance.get(detail_type='simple')[0]['list']
   p.wait()
 
   soundcloud_instance.post('/tracks', track={
-    'title': article.title,
+    'title': article.title or 'Unnamed article',
     'sharing': 'public',
     'asset_data': open(tmpname)
   })
